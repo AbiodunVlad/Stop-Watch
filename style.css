@@ -1,0 +1,53 @@
+body {
+    font-family: arial;
+    background:#E0E0E0;
+}
+#mainstopwatch {
+    width: 300px;
+    margin: 100px auto;
+    padding: 60px 50px 100px;
+    text-align: center;
+    font-size: 40px;
+    background: #E0E0E0;
+    box-shadow: 15px 15px 30px #AFAFAF,
+    -15px -15px 30px #FFFFFF;
+    border-radius: 38px;
+    background: #E0E0E0;
+    box-shadow: 6px -6px 8px #9D9D9D,
+    -6px 6px 8px #FFFFFF;
+}
+#mainstopwatch span {
+    background: #C7E0F8;
+    color: #0776DE;
+    padding: 10px;
+    width: 55px;
+    border-radius: 5px;
+    margin: 3px;
+    display: inline-block;
+    border-radius: 38px;
+    background: #E0E0E0;
+    box-shadow: 6px -6px 8px #9D9D9D,
+    -6px 6px 8px #FFFFFF;
+}
+#mainstopwatch button {
+    font-size: 22px;
+    -webkit-appearance: none;
+    border: none;
+    background-color: #2E80B3;
+    color: white;
+    width: 90px;
+    height: 45px;
+    transition: .3s;
+    border-radius: 33px;
+    box-shadow: 6px -6px 8px #9D9D9D,
+    -6px 6px 8px #FFFFFF;
+}
+#mainstopwatch button:last-child {
+    background-color: #AE7617;
+}
+#mainstopwatch button:hover {
+    background: #333;
+    color: #0E0E0E;
+    border-radius: 38px;
+    box-shadow: 6px -6px 8px #9D9D9D, -6px 6px 8px #ffffff;
+}
